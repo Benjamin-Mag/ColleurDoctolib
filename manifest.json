@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ColleurDoctolib",
+  "name": "Assistant Formulaire",
   "version": "1.0",
-  "description": "Copie les infos patient depuis Salesforce et les colle dans le formulaire de RDV Doctolib ou Acuitis",
+  "description": "Copie les infos patient depuis Salesforce et les colle dans un formulaire de prise de rendez-vous",
   "permissions": ["activeTab", "scripting", "clipboardRead", "clipboardWrite", "tabs", "storage"],
   "host_permissions": ["*://*.salesforce.com/*", "*://*.force.com/*", "*://*.doctolib.fr/*", "*://*.acuitis.com/*"],
   "icons": {
@@ -23,7 +23,7 @@
       "suggested_key": {
         "default": "Ctrl+Shift+D"
       },
-      "description": "Ouvrir ColleurDoctolib"
+      "description": "Ouvrir Assistant Formulaire"
     }
   },
   "web_accessible_resources": [{"resources": ["icon16.png", "icon48.png", "icon128.png"], "matches": ["*://*.salesforce.com/*", "*://*.force.com/*", "*://*.doctolib.fr/*", "*://*.acuitis.com/*"]}]
